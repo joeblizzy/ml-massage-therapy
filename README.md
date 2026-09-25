@@ -73,8 +73,8 @@ All key business information, pricing, Cal.com URLs, and photo paths are central
 In `src/config.ts`, update:
 ```ts
 calCom: {
-  baseUrl: "https://cal.com/your-cal-username",
-  username: "your-cal-username"
+  baseUrl: "https://cal.com/mlmassagetherapy",
+  username: "mlmassagetherapy"
 }
 ```
 

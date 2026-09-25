@@ -65,8 +65,8 @@ export const BUSINESS_CONFIG = {
     hygiene: "Linens are freshly sanitized between every appointment, and generous buffer times ensure thorough room ventilation and preparation."
   },
   calCom: {
-    baseUrl: "https://cal.com/ml-massage-therapy",
-    username: "ml-massage-therapy"
+    baseUrl: "https://cal.com/mlmassagetherapy",
+    username: "mlmassagetherapy"
   },
   reviews: {
     averageRating: 5.0,
