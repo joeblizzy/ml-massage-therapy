@@ -16,10 +16,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBooking }) => {
             Solo Practice & Clinical Care
           </span>
           <h1 className="font-serif text-4xl sm:text-5xl text-stone-900 font-normal">
-            About Maria & ML Massage Therapy
+            About {BUSINESS_CONFIG.practitioner.name} & ML Massage Therapy
           </h1>
           <p className="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto font-light leading-relaxed">
-            Delivering dedicated, evidence-informed therapeutic bodywork in a quiet, private Upper Manhattan studio.
+            Delivering dedicated, evidence-informed therapeutic bodywork and medical massage in a quiet, private Upper Manhattan studio.
           </p>
         </div>
       </section>
@@ -34,22 +34,22 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBooking }) => {
               <div className="aspect-[3/4] rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-stone-200 relative group">
                 <img
                   src={BUSINESS_CONFIG.practitioner.photo}
-                  alt="Maria, Licensed Massage Therapist at ML Massage Therapy Wellness PC"
+                  alt="Maria Lara, Licensed Massage Therapist at ML Massage Therapy Wellness PC"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-stone-950/70 via-transparent to-transparent"></div>
                 <div className="absolute bottom-6 left-6 right-6 text-white">
-                  <h3 className="font-serif text-2xl font-normal">Maria</h3>
+                  <h3 className="font-serif text-2xl font-normal">{BUSINESS_CONFIG.practitioner.name}</h3>
                   <p className="text-xs text-sage-200 uppercase tracking-wider font-medium">
                     Licensed Massage Therapist (LMT)
                   </p>
                   <p className="text-[11px] text-stone-300 mt-1">
-                    Founder, ML Massage Therapy Wellness PC
+                    Founder, ML Massage Therapy Wellness PC • 25+ Years Experience
                   </p>
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 bg-sage-700 text-white text-xs px-4 py-2 rounded-xl shadow-lg font-medium">
-                5.0 ★ Rated Practice
+                5.0 ★ Rated (20 Google Reviews)
               </div>
             </div>
           </div>

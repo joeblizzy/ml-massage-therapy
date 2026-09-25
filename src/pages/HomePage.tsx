@@ -19,7 +19,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBooking }) => {
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sage-100/80 border border-sage-200 text-sage-800 text-xs font-semibold tracking-wide">
                 <span className="w-2 h-2 rounded-full bg-sage-600 animate-pulse"></span>
-                <span>Solo Practice by Maria, LMT • Upper Manhattan</span>
+                <span>Solo Practice by Maria Lara, LMT (25+ Yrs Exp) • Upper Manhattan</span>
               </div>
 
               <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-stone-900 font-normal leading-[1.15] text-balance">

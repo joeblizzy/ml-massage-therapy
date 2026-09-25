@@ -24,13 +24,13 @@ export const BUSINESS_CONFIG = {
   shortName: "ML Massage Therapy",
   tagline: "Restorative, Clinical & Tailored Massage Therapy in Upper Manhattan",
   practitioner: {
-    name: "Maria",
+    name: "Maria Lara",
     title: "Licensed Massage Therapist (LMT)",
-    experience: "Dedicated solo clinical practice with 5.0-star client satisfaction",
+    experience: "Over 25 years of specialized clinical experience with a 5.0-star rating across 20 Google reviews",
     bio: [
-      "Maria is a licensed massage therapist who founded ML Massage Therapy Wellness PC to provide unhurried, focused, and deeply restorative clinical bodywork.",
-      "Working as a solo practitioner allows Maria to dedicate 100% of her focus to one client at a time. Each session is individually tailored to your unique anatomical needs—whether you are recovering from persistent muscular strain, managing chronic desk-bound tension, or seeking mindful stress relief.",
-      "Every treatment occurs in a private, meticulously maintained and tranquil suite designed to promote nervous system down-regulation and lasting musculoskeletal relief."
+      "Maria Lara is a licensed massage therapist with over 25 years of extensive clinical experience, certifications, and hands-on dedication. She founded ML Massage Therapy Wellness PC to provide an unhurried, focused healing haven in Upper Manhattan.",
+      "Recognized by clients for her intuitive and medical massage techniques, Maria specializes in rehabilitating long-term injuries, resolving chronic pain (including severe back, leg, and arm conditions), alleviating debilitating migraines, and restoring neuromuscular mobility.",
+      "As a solo practitioner, Maria dedicates her full, uninterrupted presence to one client at a time. Every session begins with active listening to understand your unique physical state, followed by precise, customized bodywork in a clean, quiet first-floor suite."
     ],
     photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" // Client can replace with their photo
   },
@@ -44,7 +44,7 @@ export const BUSINESS_CONFIG = {
       state: "NY",
       zip: "10031",
       neighborhood: "Washington Heights / Hamilton Heights",
-      notes: "Private professional wellness suite. Buzzer A4A upon arrival for your appointment."
+      notes: "Clean, calming first-floor private wellness suite (A4A). Buzzer A4A upon arrival for your appointment."
     },
     transit: "Conveniently accessible via the 1 train (157th St Station) or C train (155th St Station)."
   },
@@ -73,32 +73,32 @@ export const BUSINESS_CONFIG = {
     totalCount: 20,
     source: "Google Reviews",
     featuredTestimonial: {
-      quote: "Maria is phenomenal. Her targeted approach completely relieved chronic neck and shoulder tension I'd carried for months. The studio is impeccably clean, calm, and private.",
+      quote: "Maria is phenomenal. Her medical massage techniques and intuitive approach completely resolved chronic back and leg pain I'd carried for years. A true healing haven in Upper Manhattan.",
       author: "Verified Client",
       rating: 5,
-      highlight: "Impeccably clean, calm, and targeted relief"
+      highlight: "A true healing haven with transformative medical massage"
     },
     list: [
       {
-        quote: "Hands down the best therapeutic massage in upper Manhattan. Maria takes time to listen to your body and customize the pressure perfectly. Truly professional.",
-        author: "Sarah K.",
+        quote: "Maria has over 25 years of experience and it shows in every minute of the session. She relieved debilitating migraines and restored mobility in my neck and shoulders that no other therapy touched.",
+        author: "Client Review",
         rating: 5,
-        highlight: "Best therapeutic massage in upper Manhattan",
-        date: "Recent review"
+        highlight: "Over 25 years of experience & migraine relief",
+        date: "Google Maps Review"
       },
       {
-        quote: "The quiet, solo studio setting is a breath of fresh air compared to busy commercial spas. Maria addressed my lower back pain with genuine skill and care.",
-        author: "David M.",
+        quote: "The quiet, solo studio setting is a breath of fresh air. Maria took time to listen carefully, ask the right questions, and tailor the treatment specifically to my injury rehabilitation.",
+        author: "Client Review",
         rating: 5,
-        highlight: "Private, attentive solo setting",
-        date: "Recent review"
+        highlight: "Intuitive listener & dedicated rehabilitation",
+        date: "Google Maps Review"
       },
       {
-        quote: "Easy online booking, peaceful atmosphere, and remarkable relief. I left feeling lighter and pain-free. Worth every star.",
-        author: "Elena R.",
+        quote: "Clean, calming first-floor suite with an incredibly peaceful atmosphere. Sessions with Maria are transformative and deeply restorative. The 5.0 rating is well deserved.",
+        author: "Client Review",
         rating: 5,
-        highlight: "Remarkable relief and peaceful atmosphere",
-        date: "Recent review"
+        highlight: "Transformative, peaceful & impeccably clean",
+        date: "Google Maps Review"
       }
     ]
   },
