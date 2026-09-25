@@ -109,7 +109,7 @@ export const BUSINESS_CONFIG = {
       duration: 75,
       bufferAfter: 15,
       price: 150,
-      calSlug: "initial-consultation-and-massage",
+      calSlug: "initial-consultation-massage",
       shortDescription: "Comprehensive postural & health assessment followed by a personalized therapeutic treatment tailored to your primary concerns.",
       fullDescription: "Ideal for all new clients. We begin with a 15-minute intake discussion to understand your musculoskeletal history, posture patterns, and current areas of tension or pain. The remaining 60 minutes are dedicated to customized, hands-on therapeutic bodywork designed to address root imbalances.",
       bestFor: "First-time clients, chronic pain sufferers, or those with specific rehabilitation goals.",
