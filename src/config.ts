@@ -8,7 +8,7 @@ export interface ServiceItem {
   fullDescription: string;
   calSlug: string;
   image: string;
-  bestFor: string;
+  bestFor: string[];
 }
 
 export interface ReviewItem {
@@ -112,7 +112,12 @@ export const BUSINESS_CONFIG = {
       calSlug: "initial-consultation-massage",
       shortDescription: "Comprehensive postural & health assessment followed by a personalized therapeutic treatment tailored to your primary concerns.",
       fullDescription: "Ideal for all new clients. We begin with a 15-minute intake discussion to understand your musculoskeletal history, posture patterns, and current areas of tension or pain. The remaining 60 minutes are dedicated to customized, hands-on therapeutic bodywork designed to address root imbalances.",
-      bestFor: "First-time clients, chronic pain sufferers, or those with specific rehabilitation goals.",
+      bestFor: [
+        "First-time clients establishing care with Maria Lara, LMT",
+        "Individuals experiencing chronic back, neck, leg, or arm pain",
+        "Detailed postural analysis & neuromuscular compensation evaluation",
+        "Targeting root muscular imbalances rather than surface symptoms"
+      ],
       image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -124,7 +129,12 @@ export const BUSINESS_CONFIG = {
       calSlug: "standard-massage-session",
       shortDescription: "A balanced 60-minute therapeutic massage combining targeted myofascial release with soothing restorative flow.",
       fullDescription: "Our flagship session. Tailored directly to your preferences, combining deep tissue techniques, trigger point therapy, and Swedish relaxation methods. Perfect for regular stress reduction and full-body neuromuscular restoration.",
-      bestFor: "Returning clients, full-body stress reduction, and maintaining mobility.",
+      bestFor: [
+        "Returning clients seeking consistent full-body maintenance & tension relief",
+        "Alleviating accumulated work-from-home desk tension and spinal stiffness",
+        "Harmonious blend of deep tissue release and soothing restorative flow",
+        "Promoting whole-body nervous system down-regulation and improved mobility"
+      ],
       image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -136,7 +146,12 @@ export const BUSINESS_CONFIG = {
       calSlug: "express-session",
       shortDescription: "A focused, intensive 30-minute treatment specifically targeting a single trouble area such as the neck, shoulders, or lower back.",
       fullDescription: "Designed for individuals seeking quick, efficient relief for acute strain without committing to a full-length session. Concentrates entirely on one area of tightness using precise neuromuscular release.",
-      bestFor: "Lunchtime refresh, targeted neck/shoulder stiffness, or acute spot treatment.",
+      bestFor: [
+        "High-impact targeted relief for acute strain in a single focus area",
+        "Focused release for stiff neck, frozen shoulder, or acute lower back tightness",
+        "Efficient session for busy schedules without committing to a full-length treatment",
+        "Precise trigger-point therapy and concentrated myofascial work"
+      ],
       image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=800&q=80"
     },
     {
@@ -148,7 +163,12 @@ export const BUSINESS_CONFIG = {
       calSlug: "follow-up-maintenance-session",
       shortDescription: "A 45-minute treatment maintaining therapeutic progress between full sessions or focusing on dual problem areas.",
       fullDescription: "Created to support your ongoing wellness plan. Provides ample time to thoroughly work through two key tension zones (e.g., upper back and hips) to sustain joint mobility and prevent tension recurrence.",
-      bestFor: "Clients on an active care plan needing bi-weekly or monthly tune-ups.",
+      bestFor: [
+        "Clients on an active care plan requiring bi-weekly or monthly tune-ups",
+        "Focused dual-area therapy (e.g., neck & upper back, or lower back & hips)",
+        "Sustaining progress gained from initial sessions and preventing pain relapse",
+        "Optimizing musculoskeletal alignment and range of motion over time"
+      ],
       image: "https://images.unsplash.com/photo-1544161513-0179fe746fd5?auto=format&fit=crop&w=800&q=80"
     }
   ],

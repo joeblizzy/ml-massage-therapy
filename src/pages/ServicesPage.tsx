@@ -86,10 +86,22 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBooking }) => 
                       </p>
                     </div>
 
-                    {/* Best Suited For Tag */}
-                    <div className="mt-5 text-xs bg-stone-50 p-3.5 rounded-xl border border-stone-200/80 flex flex-col sm:flex-row sm:items-center gap-1.5">
-                      <span className="text-stone-500 font-medium">Best Suited For:</span>
-                      <span className="text-stone-800 font-medium">{service.bestFor}</span>
+                    {/* Best Suited For Section - Expanded & Bulleted */}
+                    <div className="mt-6 p-5 sm:p-6 rounded-2xl bg-[#FAF8F5] border border-stone-200/90 shadow-xs">
+                      <div className="flex items-center gap-2 mb-3.5 pb-2 border-b border-stone-200/60">
+                        <span className="w-2 h-2 rounded-full bg-sage-600"></span>
+                        <h4 className="text-xs font-semibold uppercase tracking-wider text-sage-900">
+                          Recommended & Best Suited For:
+                        </h4>
+                      </div>
+                      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-stone-700">
+                        {service.bestFor.map((point, idx) => (
+                          <li key={idx} className="flex items-start gap-2.5">
+                            <span className="mt-1 w-1.5 h-1.5 rounded-full bg-sage-600 shrink-0" />
+                            <span className="leading-relaxed font-light">{point}</span>
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
 
