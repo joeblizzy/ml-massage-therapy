@@ -149,7 +149,7 @@ export const BUSINESS_CONFIG = {
       shortDescription: "A 45-minute treatment maintaining therapeutic progress between full sessions or focusing on dual problem areas.",
       fullDescription: "Created to support your ongoing wellness plan. Provides ample time to thoroughly work through two key tension zones (e.g., upper back and hips) to sustain joint mobility and prevent tension recurrence.",
       bestFor: "Clients on an active care plan needing bi-weekly or monthly tune-ups.",
-      image: "https://images.unsplash.com/photo-1519824145371-296894a0dc91?auto=format&fit=crop&w=800&q=80"
+      image: "https://images.unsplash.com/photo-1544161513-0179fe746fd5?auto=format&fit=crop&w=800&q=80"
     }
   ],
   gallery: [
