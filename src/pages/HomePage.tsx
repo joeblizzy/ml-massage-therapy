@@ -57,7 +57,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBooking }) => {
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-sage-600 shrink-0" />
-                  <span>Generous Room Buffers</span>
+                  <span>Private Healing Suite</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <CheckCircle2 className="w-4 h-4 text-sage-600 shrink-0" />
@@ -137,7 +137,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onOpenBooking }) => {
             The Studio Experience
           </h2>
           <p className="text-sm sm:text-base text-stone-600 mt-2 font-light">
-            A quiet sanctuary dedicated to focused healing. Every appointment is scheduled with built-in buffer times to maintain hygiene and calm.
+            A quiet sanctuary dedicated to focused healing, restorative relaxation, and unhurried clinical care.
           </p>
         </div>
 

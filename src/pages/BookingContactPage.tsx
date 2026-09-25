@@ -100,7 +100,7 @@ export const BookingContactPage: React.FC<BookingContactPageProps> = ({ onOpenBo
                       <span className="font-medium truncate mr-1">{srv.name}</span>
                       <span className="font-serif text-stone-900 font-semibold">${srv.price}</span>
                     </div>
-                    <div className="text-[11px] text-stone-500">{srv.duration} mins • +{srv.bufferAfter}m buffer</div>
+                    <div className="text-[11px] text-stone-500">{srv.duration} minutes</div>
                   </button>
                 ))}
               </div>

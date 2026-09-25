@@ -83,10 +83,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBooking }) => {
 
               <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200">
                 <h4 className="font-serif text-lg font-medium text-stone-900 mb-1">
-                  Built-in Turnaround Buffers
+                  Unhurried & Meticulous Care
                 </h4>
                 <p className="text-xs text-stone-600 leading-relaxed">
-                  10 to 15-minute buffers between every client ensure fresh linens, clinical air sanitization, and full practitioner focus.
+                  Appointments are spaced intentionally to ensure pristine linens, thorough air sanitization, and peaceful preparation.
                 </p>
               </div>
             </div>
@@ -134,7 +134,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenBooking }) => {
                   <HeartHandshake className="w-5 h-5 text-sage-600 shrink-0 mt-0.5" />
                   <div>
                     <h4 className="text-sm font-semibold text-stone-900">Dedicated Arrival & Zero Waiting Room Overlap</h4>
-                    <p className="text-xs text-stone-600">Because appointments are spaced with buffers, you never wait in a crowded lobby or cross paths with other clients.</p>
+                    <p className="text-xs text-stone-600">Appointments are individually scheduled so you never have to wait in a crowded lobby or cross paths with other clients.</p>
                   </div>
                 </div>
 

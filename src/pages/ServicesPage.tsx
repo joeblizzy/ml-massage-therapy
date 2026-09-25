@@ -19,7 +19,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBooking }) => 
             Services & Transparent Pricing
           </h1>
           <p className="text-stone-600 text-base sm:text-lg max-w-2xl mx-auto font-light leading-relaxed">
-            Every session is structured with dedicated turnaround buffer times, ensuring a clean, peaceful space and unhurried clinical care.
+            Individualized clinical and restorative treatments designed to alleviate tension, restore mobility, and promote lasting relief.
           </p>
         </div>
       </section>
@@ -27,7 +27,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBooking }) => 
       {/* Services List Section (One entry per service per Spec Section 1 & 3) */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="space-y-8">
-          {BUSINESS_CONFIG.services.map((service, index) => (
+          {BUSINESS_CONFIG.services.map((service) => (
             <div
               key={service.id}
               className="bg-white rounded-3xl border border-stone-200 shadow-sm overflow-hidden hover:border-sage-300 transition-all duration-300"
@@ -51,20 +51,17 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBooking }) => 
                 {/* Service Details */}
                 <div className="lg:col-span-8 p-6 lg:p-8 flex flex-col justify-between space-y-6">
                   <div>
-                    {/* Top Row: Title, Buffer & Price */}
+                    {/* Top Row: Title & Price */}
                     <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 pb-4 border-b border-stone-100">
                       <div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-xs font-semibold text-sage-700 uppercase tracking-wider">
-                            Option 0{index + 1}
-                          </span>
-                          {service.id === 'initial-consultation' && (
+                        {service.id === 'initial-consultation' && (
+                          <div className="mb-2">
                             <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-sage-100 text-sage-800 text-[11px] font-semibold">
                               <Sparkles className="w-3 h-3" /> Recommended for New Clients
                             </span>
-                          )}
-                        </div>
-                        <h2 className="font-serif text-2xl sm:text-3xl text-stone-900 font-normal mt-1">
+                          </div>
+                        )}
+                        <h2 className="font-serif text-2xl sm:text-3xl text-stone-900 font-normal">
                           {service.name}
                         </h2>
                       </div>
@@ -89,26 +86,18 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onOpenBooking }) => 
                       </p>
                     </div>
 
-                    {/* Ideal For & Buffer Information */}
-                    <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
-                      <div className="bg-stone-50 p-3 rounded-xl border border-stone-200/80">
-                        <span className="text-stone-500 block mb-0.5 font-medium">Best Suited For:</span>
-                        <span className="text-stone-800 font-medium">{service.bestFor}</span>
-                      </div>
-                      <div className="bg-sage-50/60 p-3 rounded-xl border border-sage-200/60">
-                        <span className="text-sage-700 block mb-0.5 font-medium">Turnaround Buffer Time:</span>
-                        <span className="text-sage-900 font-medium">
-                          +{service.bufferAfter} min buffer for deep room sanitization
-                        </span>
-                      </div>
+                    {/* Best Suited For Tag */}
+                    <div className="mt-5 text-xs bg-stone-50 p-3.5 rounded-xl border border-stone-200/80 flex flex-col sm:flex-row sm:items-center gap-1.5">
+                      <span className="text-stone-500 font-medium">Best Suited For:</span>
+                      <span className="text-stone-800 font-medium">{service.bestFor}</span>
                     </div>
                   </div>
 
-                  {/* Booking CTA per Service (links to specific Cal.com event type) */}
+                  {/* Booking CTA per Service */}
                   <div className="pt-4 border-t border-stone-100 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
                     <div className="text-xs text-stone-500 flex items-center gap-1.5">
                       <Check className="w-4 h-4 text-sage-600 shrink-0" />
-                      <span>Direct 1-on-1 session with Maria • Cal.com Verified Event</span>
+                      <span>Direct 1-on-1 session with Maria Lara, LMT</span>
                     </div>
 
                     <button

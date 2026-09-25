@@ -50,7 +50,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               {currentService ? currentService.name : 'Schedule Your Appointment'}
             </h3>
             <p className="text-xs text-stone-500 mt-0.5">
-              Solo practice with Maria, LMT • Cal.com Verified Booking
+              Solo practice with Maria Lara, LMT • Private Treatment Suite
             </p>
           </div>
           
@@ -98,9 +98,6 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                   <span className="font-semibold text-stone-900">{currentService.name}</span>
                   <span className="text-xs bg-sage-100 text-sage-800 px-2.5 py-0.5 rounded-full font-medium">
                     {currentService.duration} minutes
-                  </span>
-                  <span className="text-xs text-stone-400">
-                    (+{currentService.bufferAfter}m sanitized room reset buffer)
                   </span>
                 </div>
                 <p className="text-xs text-stone-600 mt-1">{currentService.shortDescription}</p>
